@@ -1,0 +1,30 @@
+.header h1 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color: rgba(175, 47, 47, 0.15);
+	font-size: 6em;
+	padding: 0.1em;
+    margin-top: -1em;
+}
+
+.new-todo {
+	font-size: 2em;
+	font-style: italic;
+	font-weight: 300;
+	color: inherit;
+	padding: 0.7em;
+	border: none;
+	box-shadow: inset 0 -0.2em 0.1em rgba(0, 0, 0, 0.02);
+}
+
+:focus {
+	outline: 0;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
